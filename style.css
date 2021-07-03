@@ -1,0 +1,362 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #000000;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #3e474e;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #e4c278;
+}
+
+.menu-main{
+    background: linear-gradient(#888888, #fefefe);
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #3e474e;
+    border-radius: 10px;
+
+}
+.produtos li:hover {
+    border-color: #b7492b;
+}
+
+.produtos li:active {
+    border-color: #5ab675;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+    color: #b7492b;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.produto-preco {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.tabela {
+    background-color: white;
+    margin: 0 10px;
+}
+
+.dia {
+    font-weight: bold;
+}
+
+.horario {
+    font-weight: bold;
+}
+
+
+.copyright {
+    color: #000000;
+    font-size: 13px;
+    margin: 20px 0 0;
+    font-weight: bold;
+}
+
+
+
+form {
+    margin: 40px 0;/* Altera as margens de um elemento(seja texto ou um botão) */
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+
+.corpo_site {
+    padding: 20px 0;
+    font-weight: bold;
+    margin: 0 0 10px;
+    background: linear-gradient(#888888, #fefefe);
+}
+
+.titulo-input {
+    margin: 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 10px 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 10px;
+}
+
+.enviar{
+    width: 40%; /* Altera as dimensões de um elemento(seja texto ou um botão) */
+    padding: 15px 0; /* Altera o espaço(espaçamento) de um elemento */
+    background: #e4c278; /* Muda a cor de fundo de um elemento */
+    color: #3e474e; /* Muda a cor de um elemento(fonte) */
+    font-weight: bold; /* Coloca a fonte em um botão, (nesse caso Negrito) */
+    font-size: 20px; /* Altera o tamanho de uma fonte */
+    border: none; /* tira a borda de um elemento */
+    border-radius: 5px; /* Arredonda a borda */
+    transition: 1s all; /* Adiciona tempo para mudança de algum elemento */
+    cursor: pointer; /* Colocar mãozinha quando passa por cima */
+    margin: 0 60px;
+}
+
+.enviar:hover { /* Comando HOVER é para alterarmos um elemento quando é passado o mouse por cima */
+    background: #b7492b;
+    transform: scale(1.2); /* O 'transform' altera todo o elemento nesse caso, aumentamos o botao enviar em 20%*/
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #3e474e;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/******************************* CSS da página inicial ************************************/
+.banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 20px 0 1em;
+	clear: left; /* propriedade clear serve para limparmos configurações de propriedades como float, para não afetar outras linhas*/
+	color: #3e474e(0,0,0,0.9); /* rgba: coloca opacidade em uma cor em qualquer elemento */
+	font-weight: bold;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+
+}
+
+.principal em {
+	font-style: italic;
+	
+}
+
+.utensilios {
+	width: 150px;
+	float: left; /* float serve para descolarmos o elemento na lateral e deixar os outros elementos ao redor */
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#fefefe, #888888); /* Colocando um gradiente de cores*/
+
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
+    font-weight: bold;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 100%;
+    font-weight: bold;
+	display: inline-block;
+	vertical-align: 170px; /* alinhamento para parte de cima*/
+}
+
+.itens {
+	line-height: 1.5 ;/* altura da linha*/
+}
+
+.itens:nth-child(1) { /* nth-child é um pseudo elemento seleciona e formata qualquer elemento de uma lista, apenas escolhendo no ( ? ) qual numero/posição ele está*/
+	font-weight: bold;
+}
+
+.imagem-beneficios {
+	width: 100%;
+	opacity: 1; /* Muda a opacidade de um elemento */ 
+	transition: 400ms; /* determina a velocidade de transição do hover */ 
+	box-shadow: 10px 10px 10px 0 #000000; /* box-shadow: adiciona uma sombra no elemento desejado, podendo escolher altura, largura, blur(borrao), intensidade da borda e cor */
+}
+
+.imagem-beneficios:hover{
+	opacity: 0.3;
+}
+
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+.titulo-social-media {
+    margin-left: 525px;
+    text-align: top;
+    font-weight: bold;
+}
+
+.redes-sociais img{
+    width: 60px;
+    height: 60px;
+    margin: 50px 0 0 200px;
+
+}
+
+@media screen and (max-width: 480px) { /* Comando para configurar página para dispositivos móveis */
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	}
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
+/* Alguns Pseudo elementos do CSS, qual vai na frente de uma classe ou div. 
+:nth-child (editar elemento de uma lista)
+:first-letter (edita a primeira letra de uma linha) 
+:first-line (edita a primeira paragrafo de um texto ) 
+:hover (serve para adicionar características a um elemento quando a pessoa usuária 'posiciona' o mouse sobre ele)
+:active (serve para adicionar características a um elemento quando a pessoa usuária 'clica' com mouse sobre ele)
+:visited (indicar se o link em questão já foi visitado pelo usuário )
+:required (utilizada para destacar campos que devem ter dados válidos antes do formulário ser submetido.)
+:before (cria um espaço onde o CSS pode ser usado antes do elemento selecionado)
+:after (cria um espaço onde o CSS pode ser usado depois do elemento selecionado)
+ */
+
+ /* SELETORES AVANÇADOS NO CSS
+
+
+ Seletor >, para acessar os filhos de determinado elemento. Por exemplo, para acessar todos os p dentro de main:
+
+main > p {
+}
+
+
+Seletor +, para acessar o primeiro irmão de determinado elemento. Por exemplo, para acessar o primeiro p após um img:
+
+img + p {
+}
+
+
+Seletor ~, para acessar todos os irmãos de determinado elemento. Por exemplo, para acessar todos os p após um img:
+
+img ~ p {
+}
+
+
+
+Seletor not, para acessar os elementos, exceto algum. Por exemplo, para acessar todos os p dentro de main, 
+exceto o p que tem id missao:
+
+main p:not(#missao) {  
+}
+*/
+
+/* PROPRIEDADE CALC: podemos realizar qualquer calculo dentro de uma função, seja para alterar um tamanho de imagem ou outras coisas
+
+.img {
+	width: calc( 40% - (26px * 2));
+
+*/

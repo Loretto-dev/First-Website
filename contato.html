@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Contato - Sergio Cabelo & Cia</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="image/logo.png" alt="Logo da Barbearia Alura"></h1><!-- TAG: img: para inserir uma imagem na página-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="corpo_site">
+            <form>
+                <label for="nomesobrenome" class="titulo-input">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email" class="titulo-input">Email</label>
+                <input type="email" id="email" class="input-padrao"required placeholder="seuemail@dominio.com">
+
+                <label for="telefone" class="titulo-input">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+                <label for="mensagem" class="titulo-input">Mensagem</label>
+                <textarea cols="71" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset class="titulo-input">
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                </fieldset>
+                <fieldset class="titulo-input">
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+                <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+
+            <table class="tabela"><!-- TAG para criar uma tabela-->
+                <thead><!-- TAG para criar um cabecario em um tabela-->
+                    <tr><!-- TAG para criar uma linha em uma tabela-->
+                        <th class="dia">Dia</th><!-- TAG para criar uma celula em uma cabecario de uma tabela-->
+                        <th class="horario">Horário</th>
+                    </tr>
+                </thead>
+                <tbody><!-- TAG para criar o corpo(conteudo) de uma tabela-->
+                    <tr>
+                        <td>Segunda</td><!-- TAG para criar uma celula em uma tabela-->
+                        <td>08h ás 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Terça</td>
+                        <td>08h ás 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>08h ás 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta</td>
+                        <td>08h ás 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>08h ás 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>08h ás 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Domingos e feriados</td>
+                        <td>Fechado</td>
+                    </tr>
+                        <!-- colspan serve para colocar uma celula única em uma tabela-->
+                </tbody>
+            </table>
+        </main>
+        <footer><!-- TAG para criar o rodapé da página-->
+            <img src="image/logo.png" alt="Logo da Barbearia Alura">
+            <p class="copyright">&copy; Copyright Sergio Cabelo & Cia - 2021</p>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
