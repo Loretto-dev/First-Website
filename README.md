@@ -1,3 +1,3 @@
 # First-Website
- My first website made for my dad
+ My first static website made for my dad
 Created in HTML and CSS
